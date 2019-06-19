@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameHealth : MonoBehaviour
 {
-    public GameHealth Instance;
+    public static GameHealth Instance;
     [SerializeField]
     private TMPro.TMP_Text healthText;
     private int healthLeft;
